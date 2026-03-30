@@ -1,5 +1,5 @@
 ---
-title: "Is it OK now?"
+title: "Status now"
 ---
 # Are we in Claude Code peak hours right now?
 
