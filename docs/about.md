@@ -14,10 +14,10 @@ The schedule is straightforward but easy to forget, particularly across time zon
 
 ## How peak hours work
 
-| Period       | When (Pacific Time)        | When (GMT/UTC)             |
-|--------------|----------------------------|----------------------------|
+| Period       | When (Pacific Time)         | When (GMT/UTC)             |
+|--------------|-----------------------------|----------------------------|
 | **Peak**     | Weekdays 5:00 AM - 11:00 AM | Weekdays 1:00 PM - 7:00 PM |
-| **Off-peak** | All other times            | All other times            |
+| **Off-peak** | All other times             | All other times            |
 
 - Weekends are entirely off-peak.
 - Weekly token limits stay the same — only the per-session distribution changes.
