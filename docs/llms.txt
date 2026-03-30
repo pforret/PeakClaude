@@ -13,7 +13,8 @@ PeakClaude helps developers check whether Anthropic's Claude Code is currently i
 
 ## Pages
 
-- [Home](https://peakclaude.forret.com/): Live peak/off-peak status with clock
-- [Schedule](https://peakclaude.forret.com/schedule/): Interactive weekly grid with time zone reference
-- [Advice](https://peakclaude.forret.com/advice/): How to organize your workflow around peak hours
-- [About](https://peakclaude.forret.com/about/): Project background and credits
+- [Home](https://pforret.github.io/PeakClaude/): Live peak/off-peak status with clock
+- [Schedule](https://pforret.github.io/PeakClaude/schedule/): Interactive weekly grid with time zone reference
+- [Advice](https://pforret.github.io/PeakClaude/advice/): How to organize your workflow around peak hours
+- [Timeline](https://pforret.github.io/PeakClaude/timeline/): How Claude session limits evolved from 2023 to now
+- [About](https://pforret.github.io/PeakClaude/about/): Project background and credits

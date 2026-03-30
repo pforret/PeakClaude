@@ -86,6 +86,11 @@ icon = "fontawesome/brands/github"
 link = "https://github.com/pforret/PeakClaude"
 name = "PeakClaude on GitHub"
 
+[[project.extra.social]]
+icon = "fontawesome/solid/signal"
+link = "https://status.claude.com/"
+name = "Claude Status"
+
 [[project.extra.meta]]
 name = "keywords"
 content = "Claude Code, peak hours, Anthropic, AI coding, off-peak, session limits, Claude API"
