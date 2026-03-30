@@ -1,0 +1,19 @@
+# PeakClaude
+
+> Real-time Claude Code peak hours tracker by pforret
+
+PeakClaude helps developers check whether Anthropic's Claude Code is currently in peak or off-peak hours. During peak hours (weekdays 5 AM - 11 AM Pacific Time), session limits are tighter. This tool shows a live clock, weekly schedule, and countdown to the next transition.
+
+## Key Facts
+
+- Peak hours: Weekdays 5 AM - 11 AM Pacific Time (1 PM - 7 PM GMT)
+- Off-peak: All other times, including full weekends
+- Impact: ~7% of users hit session limits during peak, especially Pro tier
+- Tip: Shift token-intensive background jobs to off-peak hours
+
+## Pages
+
+- [Home](https://peakclaude.forret.com/): Live peak/off-peak status with clock
+- [Schedule](https://peakclaude.forret.com/schedule/): Interactive weekly grid with time zone reference
+- [Advice](https://peakclaude.forret.com/advice/): How to organize your workflow around peak hours
+- [About](https://peakclaude.forret.com/about/): Project background and credits
