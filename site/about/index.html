@@ -684,7 +684,7 @@
 <h1 id="about-peakclaude">About PeakClaude<a class="headerlink" href="#about-peakclaude" title="Permanent link">&para;</a></h1>
 <p>PeakClaude is a simple real-time tracker that shows whether <strong>Claude Code</strong> is currently in peak or off-peak hours.</p>
 <h2 id="why-does-this-exist">Why does this exist?<a class="headerlink" href="#why-does-this-exist" title="Permanent link">&para;</a></h2>
-<p>In early 2025, Anthropic introduced <strong>peak hours</strong> for Claude Code to manage growing demand. During peak hours, 5-hour session limits are distributed more tightly, which can affect heavy users — especially on the Pro tier.</p>
+<p>In March 2026, Anthropic introduced <strong>peak hours</strong> for Claude Code to manage growing demand. During peak hours, 5-hour session limits are distributed more tightly, which can affect heavy users — especially on the Pro tier.</p>
 <p>The schedule is straightforward but easy to forget, particularly across time zones. PeakClaude gives you a glanceable answer: <strong>peak or not?</strong></p>
 <h2 id="how-peak-hours-work">How peak hours work<a class="headerlink" href="#how-peak-hours-work" title="Permanent link">&para;</a></h2>
 <table>
@@ -722,8 +722,13 @@
 <h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
 <p>PeakClaude runs entirely in the browser. It uses JavaScript's <code>Intl.DateTimeFormat</code> with the <code>America/Los_Angeles</code> timezone to determine the current Pacific Time, then compares it against the known peak schedule. No server, no API calls, no tracking.</p>
 <h2 id="source">Source<a class="headerlink" href="#source" title="Permanent link">&para;</a></h2>
-<p>Peak hours were announced by Anthropic in December 2024:
-<a href="https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/">Update on session limits</a> (r/ClaudeAI)</p>
+<p>Peak hours were announced by Anthropic in March 2026:</p>
+<blockquote>
+<p>To manage growing demand for Claude, we're adjusting our 5 hour session limits for free/pro/max subscriptions during on-peak hours.
+Your weekly limits remain unchanged. During peak hours (weekdays, 5am–11am PT / 1pm–7pm GMT), you'll move through your 5-hour session limits faster than before. Overall weekly limits stay the same, just how they're distributed across the week is changing.
+We've landed a lot of efficiency wins to offset this, but ~7% of users will hit session limits they wouldn't have before, particularly in pro tiers. If you run token-intensive background jobs, shifting them to off-peak hours will stretch your session limits further.</p>
+</blockquote>
+<p>Source: <a href="https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/">Update on session limits</a> (r/ClaudeAI)</p>
 <h2 id="built-by">Built by<a class="headerlink" href="#built-by" title="Permanent link">&para;</a></h2>
 <p>Created by <a href="https://github.com/pforret">pforret</a> using <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a>. Source code on <a href="https://github.com/pforret/PeakClaude">GitHub</a>.</p>
 

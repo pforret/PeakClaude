@@ -8,7 +8,7 @@ PeakClaude is a simple real-time tracker that shows whether **Claude Code** is c
 
 ## Why does this exist?
 
-In early 2025, Anthropic introduced **peak hours** for Claude Code to manage growing demand. During peak hours, 5-hour session limits are distributed more tightly, which can affect heavy users — especially on the Pro tier.
+In March 2026, Anthropic introduced **peak hours** for Claude Code to manage growing demand. During peak hours, 5-hour session limits are distributed more tightly, which can affect heavy users — especially on the Pro tier.
 
 The schedule is straightforward but easy to forget, particularly across time zones. PeakClaude gives you a glanceable answer: **peak or not?**
 
@@ -35,8 +35,13 @@ PeakClaude runs entirely in the browser. It uses JavaScript's `Intl.DateTimeForm
 
 ## Source
 
-Peak hours were announced by Anthropic in December 2024:
-[Update on session limits](https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/) (r/ClaudeAI)
+Peak hours were announced by Anthropic in March 2026:
+
+> To manage growing demand for Claude, we're adjusting our 5 hour session limits for free/pro/max subscriptions during on-peak hours.
+> Your weekly limits remain unchanged. During peak hours (weekdays, 5am–11am PT / 1pm–7pm GMT), you'll move through your 5-hour session limits faster than before. Overall weekly limits stay the same, just how they're distributed across the week is changing.
+> We've landed a lot of efficiency wins to offset this, but ~7% of users will hit session limits they wouldn't have before, particularly in pro tiers. If you run token-intensive background jobs, shifting them to off-peak hours will stretch your session limits further.
+
+Source: [Update on session limits](https://www.reddit.com/r/ClaudeAI/comments/1s4idaq/update_on_session_limits/) (r/ClaudeAI)
 
 ## Built by
 
