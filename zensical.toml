@@ -74,12 +74,17 @@ custom_fences = [
 generator = false
 
 [[project.extra.social]]
+icon = "fontawesome/solid/marker"
+link = "https://blog.forret.com/"
+name = "blog.forret.com"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/traffic-light"
+link = "https://status.claude.com/"
+name = "Claude Status"
+
+[[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/pforret/PeakClaude"
 name = "PeakClaude on GitHub"
-
-[[project.extra.social]]
-icon = "fontawesome/solid/signal"
-link = "https://status.claude.com/"
-name = "Claude Status"
 
