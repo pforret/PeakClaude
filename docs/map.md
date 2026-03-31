@@ -3,15 +3,15 @@ title: "Peak Time Map"
 ---
 # Peak Time World Map
 
+Each timezone shows how many hours of a **local 9 AM – 5 PM workday** overlap with
+**Claude Peak Time** (weekdays 5 AM – 11 AM PT).
+The more overlap, the more your working hours are affected by tighter session limits.
+
 <div id="map-container" style="text-align:center; margin: 1.5rem 0;">
   <canvas id="peak-map" style="width:100%; max-width:960px; border-radius:8px; border:1px solid #888; cursor:crosshair;"></canvas>
   <div id="map-tooltip" style="margin-top:0.5rem; font-size: 0.95rem; min-height:1.4em;"></div>
   <div id="map-legend" style="margin-top: 0.5rem; font-size: 0.9rem; display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:0.4rem 1rem;"></div>
 </div>
-
-Each timezone shows how many hours of a **local 9 AM – 5 PM workday** overlap with
-**Claude Peak Time** (weekdays 5 AM – 11 AM PT).
-The more overlap, the more your working hours are affected by tighter session limits.
 
 **Peak hours:** Weekdays 5 AM – 11 AM PT / 1 PM – 7 PM GMT | [Status now](index.md) | [Full schedule](schedule.md) | [Advice](advice.md)
 
