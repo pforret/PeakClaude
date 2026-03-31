@@ -19,7 +19,7 @@ The `mkdox2` tool is a bash wrapper (installed via basher) that manages MkDocs M
 - **`docs/`** — all source content (Markdown files, icons, overrides)
 - **`docs/overrides/`** — MkDocs Material theme overrides (custom templates, analytics)
 - **`docs/about/index.pre` + `index.post`** — pre/post fragments assembled by `mkdox2` into `index.md`
-- **`site/`** — generated output (not in source control)
+- **`site/`** — generated output
 
 ## Theme & Styling
 
